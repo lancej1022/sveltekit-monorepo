@@ -5,8 +5,9 @@ const config: PlaywrightTestConfig = {
 		command: 'npm run build && npm run preview',
 		port: 4173
 	},
-	testDir: 'tests',
+	testDir: 'e2e',
 	testMatch: /(.+\.)?(test|spec)\.[jt]s/
+	// testMatch: /(.+\.)?(e2e)\.[jt]s/
 };
 
 export default config;
